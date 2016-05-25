@@ -14,6 +14,8 @@
 		4A7CDEEB1CF29969001E07A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDEE91CF29969001E07A7 /* LaunchScreen.storyboard */; };
 		4A7CDEF61CF29969001E07A7 /* Retro_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CDEF51CF29969001E07A7 /* Retro_CalculatorTests.swift */; };
 		4A7CDF011CF29969001E07A7 /* Retro_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CDF001CF29969001E07A7 /* Retro_CalculatorUITests.swift */; };
+		4A7CDF0F1CF35671001E07A7 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDF0E1CF35671001E07A7 /* Minecraft.ttf */; };
+		4A7CDF111CF35D1C001E07A7 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CDF101CF35D1C001E07A7 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4A7CDEFC1CF29969001E07A7 /* Retro-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7CDF001CF29969001E07A7 /* Retro_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_CalculatorUITests.swift; sourceTree = "<group>"; };
 		4A7CDF021CF29969001E07A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7CDF0E1CF35671001E07A7 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		4A7CDF101CF35D1C001E07A7 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		4A7CDEDF1CF29969001E07A7 /* Retro-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				4A7CDF0E1CF35671001E07A7 /* Minecraft.ttf */,
+				4A7CDF101CF35D1C001E07A7 /* btn.wav */,
 				4A7CDEE01CF29969001E07A7 /* AppDelegate.swift */,
 				4A7CDEE21CF29969001E07A7 /* ViewController.swift */,
 				4A7CDEE41CF29969001E07A7 /* Main.storyboard */,
@@ -229,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7CDF111CF35D1C001E07A7 /* btn.wav in Resources */,
 				4A7CDEEB1CF29969001E07A7 /* LaunchScreen.storyboard in Resources */,
 				4A7CDEE81CF29969001E07A7 /* Assets.xcassets in Resources */,
+				4A7CDF0F1CF35671001E07A7 /* Minecraft.ttf in Resources */,
 				4A7CDEE61CF29969001E07A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Retro-Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.coprograming.com.Retro-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "coprograming.com.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -414,7 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Retro-Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.coprograming.com.Retro-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "coprograming.com.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +492,7 @@
 				4A7CDF071CF29969001E07A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A7CDF081CF29969001E07A7 /* Build configuration list for PBXNativeTarget "Retro-CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				4A7CDF0A1CF29969001E07A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A7CDF0B1CF29969001E07A7 /* Build configuration list for PBXNativeTarget "Retro-CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				4A7CDF0D1CF29969001E07A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
